@@ -378,7 +378,24 @@ body {
   margin-block-end: 30px;
 }
 
+.hero-sub-menu{
+display: none;
+position: absolute;
+top: 50px;
+left: 0;
+background-color: white;
+box-shadow: 0px 0px 10px #eb3472 ;
+border-radius: 5px;
+padding: 10px;
+}
 
+.sub-menu{
+  position: relative;
+}
+
+.sub-menu:hover  .hero-sub-menu{
+display: block;
+}
 
 
 
